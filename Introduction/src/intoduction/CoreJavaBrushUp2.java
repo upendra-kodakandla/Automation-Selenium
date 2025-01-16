@@ -26,6 +26,14 @@ public class CoreJavaBrushUp2 {
 		a.add("arraylist");
 		a.remove(2);
 		System.out.println(a.get(2));
+		
+		ArrayList <String> al = new ArrayList <String>();
+		al.add("This");
+		al.add("is");
+		al.add("the");
+		al.add("arraylist");
+	    System.out.println(al.contains("Arraylist"));
+	    System.out.println(al.size());
 	}
 
 }
